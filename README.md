@@ -1,10 +1,10 @@
-# USCollegeDataAnalysisR
-USCollegeDataAnalysisR is a comprehensive analysis of college and university data in the United States using R. 
+# USCollegePreliminaryDataAnalysis
 
+**USCollegePreliminaryDataAnalysis** is an R-based project focused on the preliminary analysis of college and university data in the United States. This repository provides a comprehensive workflow for understanding, preparing, and analyzing educational data, with an emphasis on distribution analysis, feature selection, regression diagnostics, variance analysis, and correlation analysis.
 
 ### Description
 
-This repository is designed to perform a thorough preliminary analysis of data from colleges and universities across the United States using R. The analysis includes understanding features, data preparation, identifying and handling outliers, examining distribution types, and performing regression analysis with diagnostics and model evaluation.
+This repository is designed to perform a thorough preliminary analysis of data from colleges and universities across the United States using R. The analysis includes understanding features, data preparation, identifying and handling outliers, examining distribution types, performing regression analysis with diagnostics and model evaluation, and conducting variance and correlation analysis.
 
 ### Features
 
@@ -20,6 +20,6 @@ This repository is designed to perform a thorough preliminary analysis of data f
 - **Group Comparison**: Boxplots are used for initial comparison, followed by t-tests and non-parametric tests (Mann-Whitney) for more detailed analysis.
 - **Regression Analysis**: Linear regression is performed, results are interpreted, and multicollinearity and redundancy are checked.
 - **Residual Analysis**: Normality of residuals is assessed and outliers are identified using Cook's distance and Mahalanobis distance.
-- **Dependency Analysis**: Linear dependencies are analyzed with Pearson correlation, and rank correlations with Spearman's coefficient.
+- **Variance Analysis**: Variance analysis is conducted to understand variability within data.
+- **Correlation Analysis**: Linear dependencies are analyzed with Pearson correlation, and rank correlations with Spearman's coefficient.
 - **Partial Correlations**: Partial correlations are used to account for hidden factors affecting multiple features.
-
